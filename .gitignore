@@ -1,0 +1,68 @@
+# ================================
+# clasp / Google Apps Script
+# ================================
+
+# Google OAuth tokens
+~/.clasprc.json
+
+# Local clasp credentials
+.clasprc.json
+
+# ================================
+# Credentials & Secrets
+# ================================
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Service account keys or API credentials
+*.key
+*.pem
+credentials.json
+service-account.json
+token.json
+
+# ================================
+# macOS
+# ================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Spotlight index files
+.Spotlight-V100
+.Trashes
+
+# ================================
+# Editors & IDEs
+# ================================
+
+# VS Code / Kiro
+.vscode/
+.kiro/
+
+# JetBrains
+.idea/
+*.iml
+
+# ================================
+# Node.js (if you ever add tooling)
+# ================================
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ================================
+# Logs & Temp Files
+# ================================
+
+*.log
+*.tmp
+*.bak
+*.swp
