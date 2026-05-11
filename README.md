@@ -1,6 +1,6 @@
 # Mileage Chart Project
 
-A Google Apps Script project for Northside ISD that calculates mileage between district campuses and facilities. It includes a `numberOfMiles(start, destination)` custom function for use in Google Sheets and a `ClearForm` macro to reset the entry form. This project is meant for NISD staff who need to submit mileage for reimbursement. This project saves users time from having to open a separate calculator sheet and manually changing campuses.
+A Google Apps Script project that calculates mileage between particular campuses and facilities. It includes a `numberOfMiles(start, destination)` custom function for use in Google Sheets and a `ClearForm` macro to reset the entry form.
 
 ## Prerequisites
 
@@ -79,3 +79,6 @@ Clears the input range `C16:M29` on the active sheet. It is bound to the keyboar
 | `.clasp.json` | clasp config — links this directory to an Apps Script project |
 | `mileage-template-2026.xlsx` | Sheet template — upload to Google Drive and convert to Google Sheets |
 | `mlgcht2026unlocked.csv` | Source mileage data |
+
+## Credits & Origin
+This project was originally conceived and developed by Alvaro Gomez during their tenure at Northside ISD. This public version has been sanitized and refactored. Campus distances will need to be updated in the `code.js` file before general use.
