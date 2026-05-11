@@ -81,4 +81,4 @@ Clears the input range `C16:M29` on the active sheet. It is bound to the keyboar
 | `mlgcht2026unlocked.csv` | Source mileage data |
 
 ## Credits & Origin
-This project was originally conceived and developed by Alvaro Gomez during their tenure at Northside ISD. This public version has been sanitized and refactored. Campus distances will need to be updated in the `code.js` file before general use.
+This project was originally conceived and developed by Alvaro Gomez during his tenure at Northside ISD. This public version has been sanitized and refactored. Campus distances will need to be updated in the `code.js` file before general use.
