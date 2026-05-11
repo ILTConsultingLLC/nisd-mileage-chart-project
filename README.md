@@ -1,6 +1,9 @@
 # Mileage Chart Project
 
-A Google Apps Script project that calculates mileage between particular campuses and facilities. It includes a `numberOfMiles(start, destination)` custom function for use in Google Sheets and a `ClearForm` macro to reset the entry form.
+A Google Apps Script project bound to a Google Sheet that calculates mileage between particular campuses and facilities. It includes a `numberOfMiles(start, destination)` custom function for use in Google Sheets and a `ClearForm` macro to reset the entry form.
+
+## User Impact
+This project is meant to save users time from having to have a separate mileage calculation excel sheet open and inputting data on that sheet for each line in the mileage reimbursement form. This cuts down on the time it takes the user to complete the reimbursement form.
 
 ## Prerequisites
 
